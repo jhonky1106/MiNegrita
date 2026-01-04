@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estoy completamente enamorado de ti</title>
+  <style>
+    :root{
+      --bg:#f3e8ff;
+      --card:#ffffff;
+      --accent:#6a0dad;
+      --accent2:#8b32d6;
+      --text:#2d1b3d;
+      --muted:#5e4a6c;
+      --maxw:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family: 'Poppins', Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      margin:0;
+      padding:30px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{width:100%;max-width:var(--maxw)}
+
+    header{
+      background:var(--card);
+      padding:24px;
+      border-radius:14px;
+      display:flex;
+      gap:20px;
+      align-items:center;
+      box-shadow:0 6px 22px rgba(0,0,0,0.08);
+      border:2px solid var(--accent);
+    }
+    header h1{
+      margin:0;
+      font-size:26px;
+      color:var(--accent);
+    }
+
+    main{margin-top:22px;display:grid;gap:20px}
+    .card{
+      background:var(--card);
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.06);
+      border-left:6px solid var(--accent2);
+    }
+
+    .section-title{
+      font-size:20px;
+      margin-bottom:8px;
+      color:var(--accent2);
+    }
+
+    p{line-height:1.2;margin:15px 0;font-size:16.5px}
+
+    .gallery{
+      display:flex;
+      gap:16px;
+      overflow-x:auto;
+    }
+    .frame{
+      min-width:240px;
+      height:320px;
+      background:#eee;
+      border:4px solid var(--accent);
+      border-radius:14px;
+      overflow:hidden;
+      flex-shrink:0;
+    }
+    .frame img{
+      width:100%;height:100%;object-fit:cover;
+    }
+
+    @media (max-width:640px){header{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Estoy tan enamorado de ti, mi niña 💗</h1>
+        <div style="font-size:14px;color:var(--muted)">Para mi niña, mi negrita, mi princesa, mi bebé consentida, mi todooo.</div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2 class="section-title">Mi niña ten presente que...</h2>
+      <p>Ni la distancia ni nadie nos va a separar, porque lo nuestro no depende solo de estar cerca, depende de la confianza que tenemos, de las ganas reales de seguir y de todo lo que construimos incluso cuando no nos vemos. Hay días normales, días largos, días cansados, aún así yo siempre estoy pensándote, porque haces parte de mi vida y deseo con todo mi corazón que siempre sea así.</p>
+      <p>Sé que tenemos muchos planes por delante, y sé que no hablo de sueños imposibles, sino de esos que se construyen con calma y que algún día realizaremos con total firmeza y sin ocultarte nada a nadie: viajes planeados, conversaciones sin afán, ver películas juntos, comer mucha salchipapa y hamburguesitas obvio, y muchísimos planes más juntos. Me gusta imaginar ese futuro contigo, porque contigo hasta lo más simple se siente suficiente, se siente perfecto.</p>
+      <p>Tú sabes lo importante que eres para mí, mi niña. No porque todo sea perfecto, sino porque contigo todo tiene sentido. Te amo, mi corazoncito. Te amo con decisión mi princesa, en los días buenos y aún más en los difíciles, cuando el tiempo corre rápido o cuando parece detenerse, porque eres parte muy importante de mi vida, eres mi paz, mi alegría, eres mi TODO.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Y si hay algo que debo decirte es... gracias mi amor</h2>
+      <p>Gracias por amarme de una manera tan real que me enseñó a ser un mejor hombre cada día.</p>
+      <p>Gracias por sacar lo mejor de mí incluso cuando yo no sabía que podía dar más.</p>
+      <p>Gracias por mostrarme amor aun cuando estás cansada, estresada o con el mundo encima, y aun así eliges amarme.</p>
+      <p>Gracias por creer en mí cuando ni yo mismo lo hacía, y empujarme a crecer sin soltarme la mano.</p>
+      <p>Gracias por enseñarme que amar también es paciencia, comprensión y pequeños detalles diarios.</p>
+      <p>Gracias por hacerme sentir seguro con tus palabras, con tu mirada y con tu forma de cuidar.</p>
+      <p>Gracias por ayudarme a sanar partes de mí que ni siquiera sabía que estaban rotas.</p>
+      <p>Gracias por quererme por amarme con todo y mis defectos amor mío.</p>
+      <p>Gracias por darme un amor que no cansa, que no hiere y que solo suma y le hace bien a mi coeazón.</p>
+      <p>Gracias por inspirarme a ser alguien del que tú puedas sentirte orgullosa.</p>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Y es que, cómo no estar enamorado de ti, si te ves así...</h2>
+      <div class="gallery">
+        <div class="frame"><img src="morena.jpeg" alt="Foto 1"></div>
+        <div class="frame"><img src="morena2.jpeg" alt="Foto 2"></div>
+        <div class="frame"><img src="morena3.jpeg" alt="Foto 3"></div>
+        <div class="frame"><img src="morena4.jpeg" alt="Foto 4"></div>
+      </div>
+      <p style="font-size:13px;color:var(--muted)">Eres lo más preciado para mí, mi niggita hermosa. </p>
+    </section>
+<div>
+    <footer class="card" style="text-align:center;color:var(--muted)">
+      Hecho con cariño para mi princesa 💗
+      <p> De parte de tu negrito.</p> 
+    </footer>
+    </div>
+  </div>
+</body>
+</html>
